@@ -6,8 +6,8 @@ from datetime import datetime
 from pathlib import Path
 
 # Set your repo path (no need for full path in Railway, just local dir)
-repo_path = r"C:\Users\rocks\OneDrive\Desktop\JS-practice"
-file_to_modify = "njh.js"
+repo_path = Path(r"C:\Users\rocks\OneDrive\Desktop\JS-practice")
+file_to_modify = repo_path / "njh.js"
 
 def perform_commits():
     num_commits = random.randint(25, 35)
