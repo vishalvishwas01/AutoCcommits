@@ -6,7 +6,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Set your repo path (no need for full path in Railway, just local dir)
-repo_path = Path(".")
+repo_path = r"C:\Users\rocks\OneDrive\Desktop\JS-practice"
 file_to_modify = "njh.js"
 
 def perform_commits():
