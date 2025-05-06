@@ -18,8 +18,8 @@ def perform_commits():
         with open(file_to_modify, "a") as file:
             file.write(f"Commit {i+1} at {datetime.now()}\n")
 
-        os.system("git config user.name 'github-actions'")
-        os.system("git config user.email 'github-actions@github.com'")
+        os.system("git config user.name 'vishalvishwas01'")
+        os.system("git config user.email 'vishalvishwas7082@gmail.com'")
         os.system("git add .")
         os.system(f'git commit -m "Auto commit {i+1} at {datetime.now()}"')
         time.sleep(random.uniform(1, 2))  # Light delay
