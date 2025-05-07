@@ -11,7 +11,7 @@ if not file_to_modify.exists():
     file_to_modify.touch()
 
 def perform_commits():
-    num_commits = random.randint(3, 5)  # Keep low to avoid spam
+    num_commits = random.randint(8, 20)  # Keep low to avoid spam
     print(f"Performing {num_commits} commits...")
 
     for i in range(num_commits):
